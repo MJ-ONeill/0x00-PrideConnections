@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PrideConnectionss</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<header>
+        <h1>PrideConnections</h1>
+        <nav>
+            <ul>
+                <li><a href="index-landing-page.html">About</a></li>
+				<li><a href="index.html">Search-Event</a></li>
+            </ul>
+        </nav>
+    </header>
+
+	<main>
+	  <section id="add-event">
+            <h2>Add an Event</h2>
+            <form action="add-event.html">
+                <label for="event-title">Title:</label>
+                <input type="text" id="event-title" name="event-title"><br>
+                <label for="event-date">Date:</label>
+                <input type="date" id="event-date" name="event-date"><br>
+                <label for="event-location">Location:</label>
+                <input type="text" id="event-location" name="event-location"><br>
+                <label for="event-description">Description:</label>
+                <textarea id="event-description" name="event-description"></textarea><br>
+                <button type="submit">Add Event</button>
+              </form>
+        </section>
+	</main>
+
+
+  <footer>
+        <p>&copy 2023 LGBTQ Events</p>
+    </footer>
+	<script src="scripts/maps.js"> </script>
+	<script src="scripts/events.js"></script>
+</body>
+</html>
