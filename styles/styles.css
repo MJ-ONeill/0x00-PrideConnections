@@ -1,0 +1,99 @@
+/* ----------------- GENERAL ---------------- */
+body {
+    margin: 2px;
+    display: block;
+    font-weight: 900;
+   /* background-image: url("../images/ ## ");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    justify-content: center;
+    font-size: 18px;
+    height: auto;
+    width: 100%;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+
+
+
+/* -------------------------- CUSTOM ----------------*/
+.background-img {
+    background-image: url("../images/wallpaper-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+
+#LOGO {
+    background-image: url("../images/screenshobackg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+ font-weight: 900;
+    margin-top:20px;
+    padding-bottom:30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    text-shadow: 15px 5px #ea0303da;
+    
+}
+
+/* ------------ FOOTER --------- */
+.site-footer
+{
+  background-color:rgb(61, 240, 6);
+  flex-wrap: wrap;
+  font-size:15px;
+  line-height: 20px;
+  color:black;
+  font-weight: 900;
+  margin-top:30px;
+  position:inherit;
+  display:block;
+  
+}
+
+
+.copyright-text
+{
+    padding-bottom:0px;
+ margin-bottom: 0px;
+  position:relative;
+  justify-content: left;
+  text-align: left;
+  color:#d503ff;
+  font-weight: 900;
+}
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom:1px;
+    }
+
+    @media (max-width:767px) {
+        .site-footer {
+            padding-bottom: 0;
+        }
+
+            .site-footer .copyright-text, .site-footer .social-icons {
+                text-align: center;
+            }
+    }
+
+    
+    @media (max-width:767px) {
+        .social-icons li.title {
+            display: block;
+            margin-right: 0;
+            font-weight: 600;
+        }
+    }
+}
